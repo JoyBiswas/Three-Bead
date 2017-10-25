@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3297131FA0DC9B005C4CBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3297121FA0DC9B005C4CBE /* AppDelegate.swift */; };
+		CE3297151FA0DC9B005C4CBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3297141FA0DC9B005C4CBE /* ViewController.swift */; };
+		CE3297181FA0DC9B005C4CBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3297161FA0DC9B005C4CBE /* Main.storyboard */; };
+		CE32971B1FA0DC9B005C4CBE /* Three_Bead.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE3297191FA0DC9B005C4CBE /* Three_Bead.xcdatamodeld */; };
+		CE32971D1FA0DC9B005C4CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE32971C1FA0DC9B005C4CBE /* Assets.xcassets */; };
+		CE3297201FA0DC9B005C4CBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE32971E1FA0DC9B005C4CBE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE32970F1FA0DC9B005C4CBE /* Three-Bead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Three-Bead.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3297121FA0DC9B005C4CBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE3297141FA0DC9B005C4CBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE3297171FA0DC9B005C4CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE32971A1FA0DC9B005C4CBE /* Three_Bead.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Three_Bead.xcdatamodel; sourceTree = "<group>"; };
+		CE32971C1FA0DC9B005C4CBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE32971F1FA0DC9B005C4CBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE3297211FA0DC9B005C4CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE32970C1FA0DC9B005C4CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3297061FA0DC9B005C4CBE = {
+			isa = PBXGroup;
+			children = (
+				CE3297111FA0DC9B005C4CBE /* Three-Bead */,
+				CE3297101FA0DC9B005C4CBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3297101FA0DC9B005C4CBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE32970F1FA0DC9B005C4CBE /* Three-Bead.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3297111FA0DC9B005C4CBE /* Three-Bead */ = {
+			isa = PBXGroup;
+			children = (
+				CE3297121FA0DC9B005C4CBE /* AppDelegate.swift */,
+				CE3297141FA0DC9B005C4CBE /* ViewController.swift */,
+				CE3297161FA0DC9B005C4CBE /* Main.storyboard */,
+				CE32971C1FA0DC9B005C4CBE /* Assets.xcassets */,
+				CE32971E1FA0DC9B005C4CBE /* LaunchScreen.storyboard */,
+				CE3297211FA0DC9B005C4CBE /* Info.plist */,
+				CE3297191FA0DC9B005C4CBE /* Three_Bead.xcdatamodeld */,
+			);
+			path = "Three-Bead";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE32970E1FA0DC9B005C4CBE /* Three-Bead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3297241FA0DC9B005C4CBE /* Build configuration list for PBXNativeTarget "Three-Bead" */;
+			buildPhases = (
+				CE32970B1FA0DC9B005C4CBE /* Sources */,
+				CE32970C1FA0DC9B005C4CBE /* Frameworks */,
+				CE32970D1FA0DC9B005C4CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Three-Bead";
+			productName = "Three-Bead";
+			productReference = CE32970F1FA0DC9B005C4CBE /* Three-Bead.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3297071FA0DC9B005C4CBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "MacBook Air";
+				TargetAttributes = {
+					CE32970E1FA0DC9B005C4CBE = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE32970A1FA0DC9B005C4CBE /* Build configuration list for PBXProject "Three-Bead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE3297061FA0DC9B005C4CBE;
+			productRefGroup = CE3297101FA0DC9B005C4CBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE32970E1FA0DC9B005C4CBE /* Three-Bead */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE32970D1FA0DC9B005C4CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3297201FA0DC9B005C4CBE /* LaunchScreen.storyboard in Resources */,
+				CE32971D1FA0DC9B005C4CBE /* Assets.xcassets in Resources */,
+				CE3297181FA0DC9B005C4CBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE32970B1FA0DC9B005C4CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE32971B1FA0DC9B005C4CBE /* Three_Bead.xcdatamodeld in Sources */,
+				CE3297151FA0DC9B005C4CBE /* ViewController.swift in Sources */,
+				CE3297131FA0DC9B005C4CBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE3297161FA0DC9B005C4CBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3297171FA0DC9B005C4CBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE32971E1FA0DC9B005C4CBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE32971F1FA0DC9B005C4CBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3297221FA0DC9B005C4CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE3297231FA0DC9B005C4CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3297251FA0DC9B005C4CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Three-Bead/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "universal.Three-Bead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE3297261FA0DC9B005C4CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Three-Bead/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "universal.Three-Bead";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE32970A1FA0DC9B005C4CBE /* Build configuration list for PBXProject "Three-Bead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3297221FA0DC9B005C4CBE /* Debug */,
+				CE3297231FA0DC9B005C4CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3297241FA0DC9B005C4CBE /* Build configuration list for PBXNativeTarget "Three-Bead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3297251FA0DC9B005C4CBE /* Debug */,
+				CE3297261FA0DC9B005C4CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE3297191FA0DC9B005C4CBE /* Three_Bead.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE32971A1FA0DC9B005C4CBE /* Three_Bead.xcdatamodel */,
+			);
+			currentVersion = CE32971A1FA0DC9B005C4CBE /* Three_Bead.xcdatamodel */;
+			path = Three_Bead.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE3297071FA0DC9B005C4CBE /* Project object */;
+}
