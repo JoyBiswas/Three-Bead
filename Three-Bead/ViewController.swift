@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var playAgainBtn: UIButton!
     @IBOutlet weak var winerLabel: UILabel!
     
+    var intheEnd = false
+    
     var activeGame = true
     // 1 for nought,2 for cross
     
@@ -59,11 +61,10 @@ class ViewController: UIViewController {
                         
                         winerLabel.text = "Nought has won!"
                         
-                    }else {
+                    }else  {
                         
                         winerLabel.text = "Cross has won!"
                     }
-                    
                     UIView.animate(withDuration: 1, animations: {
                         
                         self.winerLabel.center = CGPoint(x: self.winerLabel.center.x+500, y: self.winerLabel.center.y)
@@ -75,12 +76,37 @@ class ViewController: UIViewController {
                     
                     
                     
+                    
+            }
+                
+               
+                
+        }
+            activeGame = false
+            
+            for i in gameState {
+                
+                if i == 0 {
+                    
+                    activeGame = true
+                    break
                 }
             }
             
-      
+            if activeGame == false {
+                
+                winerLabel.textColor = UIColor(colorLiteralRed: 1.0, green: 0.0, blue: 0.0, alpha: 1.0)
+                
+                winerLabel.text = "It was a Draw"
+                playAgainBtn.isHidden = false
+                winerLabel.isHidden = false
+                
+            }
+            
+            
         
-         }
+    }
+        
         
 }
     
